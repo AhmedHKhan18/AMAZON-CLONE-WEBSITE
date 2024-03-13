@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.navcontainer {
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(19,25,33);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.textinput {
+    width: 50vw;
+    height: 5vh;
+}
+.logo {
+    height: 8vh;
+    width: 9vw;
+}
+.mainimg {
+    height: 30%;
+    width: 100%;
+}
+.secnav {
+    background-color: rgb(35,47,62);
+    height: 4vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h5 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+#cardsdiv {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+.card {
+    border: 1px solid gray;
+    width: 22%;
+    height: 280px;
+    padding: 4px;
+    /* box-shadow: 10px 20px 15px gray; */
+    border-radius: 4px;
+    margin-left: 2%;
+    margin-top: 20px;
+}
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: green;
+}
+span {
+    font-weight: bold;
+}
+.flag {
+    height: 3vh;
+    width: 3vw;
+}
+.cart {
+    height: 3vh;
+    width: 3vw;
+}
+.carts {
+    display: flex;
+}
+.location {
+    height: 5vh;
+    width: 3vw;
+}
+input {
+    padding: 0px 10px;
+}
+footer {
+    height: 610px;
+    width: 100%;
+    background-color: rgb(35,47,62);
+    text-align: center;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+footer img {
+    margin: 50px;
+}
